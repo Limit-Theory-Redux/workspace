@@ -2,3 +2,11 @@
 tests/tmp/
 .DS_Store
 Thumbs.db
+
+# Generated projections from module/bootstrap.sh (see workspace.toml).
+# Edit profiles/*/AGENT.md and skills/ instead, then re-run bootstrap.
+/AGENT.md
+/AGENTS.md
+/CLAUDE.md
+/.agents/skills/
+/.claude/skills/

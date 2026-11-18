@@ -12,3 +12,5 @@ Skills for AI coding assistants working on this repository. Each skill is a fold
 | [rendering](rendering/SKILL.md) | Working on `engine/lib/phx/src/render/`, incl. the multithreaded render thread. |
 | [lua-workers](lua-workers/SKILL.md) | Offloading Lua computation to background threads via TaskQueue/Payload. |
 | [hmgui](hmgui/SKILL.md) | Building in-game UI with HmGui and the Pages/Views/Components UI Router. |
+| [contribution-workflow](contribution-workflow/SKILL.md) | Before starting a change, and when opening issues or PRs: Discord go, issue, labels, project board, templates. |
+| [documentation](documentation/SKILL.md) | Any change that alters behaviour, APIs, settings, keys or tools: which docs to update in the same PR. |

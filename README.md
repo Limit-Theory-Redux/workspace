@@ -111,7 +111,10 @@ is portable across machines:
 lives in `profiles/ltheory/AGENT.md` and the project skill lives in
 `skills/ltheory-project/`. Nothing is written inside the target checkout.
 
-From this workspace root, run:
+The root `AGENT.md`, `AGENTS.md`, `CLAUDE.md`, `.agents/skills/` and
+`.claude/skills/` are generated projections and are git-ignored, so a fresh
+clone has no agent instructions until bootstrap runs. From this workspace
+root, run:
 
 ```sh
 bash module/bootstrap.sh --config workspace.toml

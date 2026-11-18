@@ -1,6 +1,6 @@
 ---
 name: luajit-ffi-bindings
-description: How to expose Rust engine APIs to Lua with the #[luajit_ffi_gen::luajit_ffi] macro — attribute parameters, supported types, generated files, and the regeneration workflow. Use when adding or changing any Rust function/enum that Lua must call.
+description: "How to expose Rust engine APIs to Lua with the #[luajit_ffi_gen::luajit_ffi] macro — attribute parameters, supported types, generated files, and the regeneration workflow. Use when adding or changing any Rust function/enum that Lua must call."
 ---
 
 # LuaJIT FFI Bindings (luajit-ffi-gen)

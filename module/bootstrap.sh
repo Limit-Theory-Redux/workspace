@@ -134,7 +134,7 @@ for destination_raw in "${SKILL_DESTINATIONS[@]}"; do
     # Merge into the provider projection. Existing unrelated skills and
     # provider metadata are preserved; this module never prunes by default.
     cp -R -- "$skill_dir/." "$destination_skill/"
-    ok "skill '$skill_name' synced"
+    ok "skill '$skill_name' synced to $destination_raw"
   done
 done
 

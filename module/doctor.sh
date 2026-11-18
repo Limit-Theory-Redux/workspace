@@ -123,7 +123,7 @@ for destination_raw in "${SKILL_DESTINATIONS[@]}"; do
     elif ! cmp -s "$source_skill" "$destination_skill"; then
       drift "skill '$skill_name' differs in $destination_root"
     else
-      ok "skill '$skill_name' synced in $(basename "$destination_root")"
+      ok "skill '$skill_name' synced in $destination_raw"
     fi
   done
 done
